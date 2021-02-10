@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Santiago Ferreira]]></title><description><![CDATA[Highly motivated, detail-oriented software developer, designer and musician.]]></description><link>https://gatsby-london.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 09 Feb 2021 13:07:49 GMT</lastBuildDate><item><title><![CDATA[Animated design app]]></title><description><![CDATA[Design animated visuals anywhere, share them everywhere.This is an ongoing personal project. It’s goal is to make it easy to create good…]]></description><link>https://gatsby-london.netlify.com//animated-design/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//animated-design/</guid><pubDate>Mon, 25 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Design animated visuals anywhere, share them everywhere.&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Santiago Ferreira]]></title><description><![CDATA[Highly motivated, detail-oriented software developer, designer and musician]]></description><link>https://gatsby-london.netlify.com/</link><generator>RSS for Node</generator><lastBuildDate>Wed, 10 Feb 2021 13:05:09 GMT</lastBuildDate><item><title><![CDATA[Animated Design App]]></title><description><![CDATA[Cross platform, cloud enabled animation + design AppThis is an ongoing personal project. It’s goal is to make it easy to create good looking…]]></description><link>https://gatsby-london.netlify.com//animated-design/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//animated-design/</guid><pubDate>Mon, 25 Jan 2021 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Cross platform, cloud enabled animation + design App&lt;/h3&gt;
 &lt;p&gt;This is an ongoing personal project. It’s goal is to make it easy to create good looking animated visuals anywhere and to be able to export them to any format. The app runs on &lt;strong&gt;iOS&lt;/strong&gt;, &lt;strong&gt;Android&lt;/strong&gt; and &lt;strong&gt;Web&lt;/strong&gt; and user data is synchronized across devices via &lt;strong&gt;AWS DataStore&lt;/strong&gt;. Video encoding is implemented on-device with an &lt;strong&gt;AWS Lambda&lt;/strong&gt; fallback for incompatible devices or browsers.&lt;/p&gt;
 &lt;p&gt;Graphics are implemented in &lt;strong&gt;PIXI.js&lt;/strong&gt; which provides fast, hardware accelerated, performance. Moreover, several elements such as backgrounds are implemented as &lt;strong&gt;WebGL Shaders&lt;/strong&gt;.&lt;/p&gt;
 
@@ -27,14 +27,14 @@
 &lt;hr&gt;
 &lt;h4&gt;Minimal, intuitive and powerful UI&lt;/h4&gt;
 &lt;div class=&quot;sntx-markdown-21cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/ui_01.jpg&quot;&gt;
     &lt;source src=&quot;/ui_01-d1d716b0f0895b9660c8993bfb02f231.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
   &lt;p&gt;Select an element and the bottom bar automatically updates with the necessary controls. UI controls are minimal yet they display all the information you need while editing. For example: Use colored sliders to colorize elements, use animation select buttons to select among animation options.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;sntx-markdown-21cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/grid_menus.jpg&quot;&gt;
     &lt;source src=&quot;/grid_menus-581bd9053a8ace10b915e6ec945e975b.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
@@ -43,7 +43,7 @@
 &lt;hr&gt;
 &lt;h4&gt;Color Palette system&lt;/h4&gt;
 &lt;div class=&quot;sntx-markdown-21cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/palettes.jpg&quot;&gt;
     &lt;source src=&quot;/palettes-d50711df0fe028d78a144faa3bdb52a2.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
@@ -52,7 +52,7 @@
 &lt;hr&gt;
 &lt;h4&gt;Stretchable artwork&lt;/h4&gt;
 &lt;div class=&quot;sntx-markdown-21cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/aspect_ratio.jpg&quot;&gt;
     &lt;source src=&quot;/aspect_ratio-13e80b086d617d83fca8472ca60b6426.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
@@ -62,11 +62,11 @@
 &lt;h4&gt;Generative design tools&lt;/h4&gt;
 &lt;p&gt;Use generative design to create elements. The following example shows a flower generator with different parameters. By adjusting parameters with buttons and sliders, users can create endless variations of animated shapes, backgrounds and other design elements.&lt;/p&gt;
 &lt;div class=&quot;sntx-markdown-2cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/flowers01.jpg&quot;&gt;
     &lt;source src=&quot;/flowers01-398fce2306fb3b9ae728383d51ca4522.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/flowers02.jpg&quot;&gt;
     &lt;source src=&quot;/flowers02-c7d90b9d024bd675e42b1da62b7d0b69.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
@@ -140,11 +140,11 @@
 &lt;h4&gt;Animated colors&lt;/h4&gt;
 &lt;p&gt;Since colors are dynamic, they can be manipulated and animated by selecting and tweaking different parameters.&lt;/p&gt;
 &lt;div class=&quot;sntx-markdown-2cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/colorizer_tiger.jpg&quot;&gt;
     &lt;source src=&quot;/colorizer_tiger-8af474a21b739e33001a71e860d0db3d.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/colorizier_butterfly.jpg&quot;&gt;
     &lt;source src=&quot;/colorizier_butterfly-1eac3a902d50e88cb7fbc7c01d2397d2.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
   &lt;/video&gt;
@@ -152,12 +152,10 @@
 &lt;hr&gt;
 &lt;h4&gt;Synchronized to music&lt;/h4&gt;
 &lt;p&gt;The timeline and all animations are synchronized to a global BPM (beats per minute) value. Just add a song and the artwork will be moving along to the beat.&lt;/p&gt;
-&lt;div class=&quot;sntx-markdown-2cols-parent&quot;&gt;
-  &lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+  &lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/music_sync.jpg&quot;&gt;
     &lt;source src=&quot;/music_sync-c71776bf7267556b58c5df62cb922718.mp4&quot; type=&quot;video/mp4&quot;&gt;
     Your browser does not support the video tag.
-  &lt;/video&gt;
-&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Project management app]]></title><description><![CDATA[Streamlined project management tailored to company’s needsIn mid 2020 I prepared a prototype application and project proposal for an…]]></description><link>https://gatsby-london.netlify.com//project-management/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//project-management/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Streamlined project management tailored to company’s needs&lt;/h3&gt;
+  &lt;/video&gt;</content:encoded></item><item><title><![CDATA[Project management app]]></title><description><![CDATA[Streamlined project management tailored to company’s needsIn mid 2020 I prepared a prototype application and project proposal for an…]]></description><link>https://gatsby-london.netlify.com//project-management/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//project-management/</guid><pubDate>Sat, 01 Aug 2020 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Streamlined project management tailored to company’s needs&lt;/h3&gt;
 &lt;p&gt;In mid 2020 I prepared a prototype application and project proposal for an international solar energy company. For the development of the prototype, I met with engineers and project managers to learn their processes for planning and building solar energy plants.&lt;/p&gt;
 &lt;p&gt;The main goal of the application was to make project tracking and verification efficient and quick. Many existing software introduced unnecessary complexities which would slow down the company’s work flow. My proposal presented a streamlined solution where the app would adapt to different kinds of users (engineers, project managers, managers) and present them only with necessary data and functionality.&lt;/p&gt;
 &lt;ul&gt;
@@ -169,20 +167,20 @@
 &lt;h4&gt;Proposal&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&quot;./Project_Proposal.pdf&quot;&gt;Project_Proposal.pdf&lt;/a&gt;&lt;/p&gt;
 &lt;h4&gt;Engineers (Supervisors)&lt;/h4&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/Supervisor_Control_Demo-91aaba846890678e4fb4797d068b438f.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;h4&gt;Project Managers&lt;/h4&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/Project_Manager_Demo-e00a80c5a9e8b3b765b04b905c5a1285.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;h4&gt;Management and Sales&lt;/h4&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/Overview_Demo-2040405d35e7f2dd349fde235d45cb66.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
-&lt;/video&gt;</content:encoded></item><item><title><![CDATA[React Native Reflect]]></title><description><![CDATA[Simplify the process of creating universal React Native applicationsAfter working with Styled Components and Styled System for web, I…]]></description><link>https://gatsby-london.netlify.com//reflect/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//reflect/</guid><pubDate>Sat, 08 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Simplify the process of creating universal React Native applications&lt;/h3&gt;
+&lt;/video&gt;</content:encoded></item><item><title><![CDATA[React Native Reflect]]></title><description><![CDATA[Responsive, Theme-Based Style System for React NativeAfter working with Styled Components and Styled System for web, I realized I needed…]]></description><link>https://gatsby-london.netlify.com//reflect/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//reflect/</guid><pubDate>Sat, 08 Jun 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Responsive, Theme-Based Style System for React Native&lt;/h3&gt;
 &lt;p&gt;After working with &lt;strong&gt;Styled Components&lt;/strong&gt; and &lt;strong&gt;Styled System&lt;/strong&gt; for web, I realized I needed something similar for &lt;strong&gt;React Native&lt;/strong&gt;. At the time I didn’t find good alternatives so I decided to build &lt;strong&gt;Reflect&lt;/strong&gt;. Besides being a style system, &lt;strong&gt;Reflect&lt;/strong&gt; also has methods to make the process of creating layouts and UI for universal apps more intuitive and succinct.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Reflect&lt;/strong&gt; is fully documented and unit tested:&lt;/p&gt;
 &lt;h4&gt;Main Links&lt;/h4&gt;
@@ -196,11 +194,11 @@
 &lt;li&gt;&lt;a href=&quot;https://dev.to/sntx/responsive-ux-design-with-react-native-reflect-part-2-m24&quot;&gt;Responsive UX Design with React Native Reflect (Part 2)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dev.to/sntx/responsive-ux-design-with-react-native-reflect-part-3-2i6f&quot;&gt;Responsive UX Design with React Native Reflect (Part 3)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://dev.to/sntx/responsive-ux-design-with-react-native-reflect-part-4-14e4&quot;&gt;Responsive UX Design with React Native Reflect (Part 4)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Static Website]]></title><description><![CDATA[A fast website with a minimal designI built this website from the ground up to explore and learn new client-side technologies. I’m very glad…]]></description><link>https://gatsby-london.netlify.com//static-website/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//static-website/</guid><pubDate>Wed, 08 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;A fast website with a minimal design&lt;/h3&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Gatsby Website]]></title><description><![CDATA[A fast website with a minimal designI built this website from the ground up to explore and learn new client-side technologies. I’m very glad…]]></description><link>https://gatsby-london.netlify.com//static-website/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//static-website/</guid><pubDate>Wed, 08 May 2019 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;A fast website with a minimal design&lt;/h3&gt;
 &lt;p&gt;I built this website from the ground up to explore and learn new client-side technologies. I’m very glad I decided to use &lt;strong&gt;Gatsby&lt;/strong&gt; which continues to be one of my favorite ways of building web sites and web apps. All the content on the site is organized as &lt;strong&gt;Markdown&lt;/strong&gt; files, images and folders.&lt;/p&gt;
 &lt;p&gt;Another tool that I used for the first time on this site is &lt;strong&gt;Theme UI&lt;/strong&gt;, along with &lt;strong&gt;Styled Components&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Check out the site here:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://santiandtugce.com/&quot;&gt;https://santiandtugce.com/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[eLearning tools]]></title><description><![CDATA[The examples below illustrate some of the work I did while working as a Lead and Senior Front-end developer for Computerized Assessments and…]]></description><link>https://gatsby-london.netlify.com//e-learning/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//e-learning/</guid><pubDate>Sat, 01 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The examples below illustrate some of the work I did while working as a Lead and Senior Front-end developer for Computerized Assessments and Learning (CA&amp;#x26;L) and Educational Testing Services (ETS).&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://santiandtugce.com/&quot;&gt;https://santiandtugce.com/&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[E-Learning Tools]]></title><description><![CDATA[The examples below illustrate some of the work I did while working as a Lead and Senior Front-end developer for Computerized Assessments and…]]></description><link>https://gatsby-london.netlify.com//e-learning/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//e-learning/</guid><pubDate>Sat, 01 Jul 2017 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The examples below illustrate some of the work I did while working as a Lead and Senior Front-end developer for Computerized Assessments and Learning (CA&amp;#x26;L) and Educational Testing Services (ETS).&lt;/p&gt;
 &lt;hr&gt;
 &lt;h4&gt;Color Accommodations Processor&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;(CamanJS, Regular expressions, SVG, Node.js, Grunt)&lt;/em&gt;&lt;/p&gt;
@@ -211,7 +209,7 @@
 &lt;li&gt;Performance optimized by caching computation results.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;sntx-separator&quot;&gt;&lt;/div&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/color-accomodations-952600ff83071c517399c202e9ce38a9.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
@@ -225,7 +223,7 @@
 &lt;li&gt;Performance optimized: through function merging pipeline (to merge consecutive operations into one).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;sntx-separator&quot;&gt;&lt;/div&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/rich-text-editor-cda9b4e40ecb7f9a8495d28550101f88.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
@@ -238,7 +236,7 @@
 &lt;li&gt;Accessible: User can draw with mouse, touch or keyboard&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;sntx-separator&quot;&gt;&lt;/div&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/graph-paper-tool-100560996d5fdb880aec90f75e22a64d.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
@@ -251,7 +249,7 @@
 &lt;li&gt;Expandable by defining custom steps.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;sntx-separator&quot;&gt;&lt;/div&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/automator-f74e7a8482405b2c0059ebed30d16a4a.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
@@ -263,10 +261,10 @@
 &lt;li&gt;Clock based synchronization method to keep multiple tracks aligned.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&quot;sntx-separator&quot;&gt;&lt;/div&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/media_sequencer-0fe91069c76c00bc1a2462afee542705.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
-&lt;/video&gt;</content:encoded></item><item><title><![CDATA[Design App]]></title><description><![CDATA[Three.js implementation of NURBS curves and surfacesNURBSForThree was a personal project while studying geometric modelling at college. The…]]></description><link>https://gatsby-london.netlify.com//nurbs-three-js/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//nurbs-three-js/</guid><pubDate>Wed, 01 Feb 2012 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Three.js implementation of NURBS curves and surfaces&lt;/h3&gt;
+&lt;/video&gt;</content:encoded></item><item><title><![CDATA[NurbsForThree]]></title><description><![CDATA[Three.js implementation of NURBS curves and surfacesNURBSForThree was a personal project while studying geometric modelling at college. The…]]></description><link>https://gatsby-london.netlify.com//nurbs-three-js/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//nurbs-three-js/</guid><pubDate>Wed, 01 Feb 2012 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Three.js implementation of NURBS curves and surfaces&lt;/h3&gt;
 &lt;p&gt;NURBSForThree was a personal project while studying geometric modelling at college. The projected implemented:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The mathematics to represent NURBS surfaces&lt;/li&gt;
@@ -275,17 +273,17 @@
 &lt;li&gt;A demo application to select tools and to save/load surfaces&lt;/li&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/sweep_surface_example-dab13c2487884c7b063164742656b48c.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;hr&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/rotate_surface_example-922fc5f01a69d3bfc5d0ba0544b95346.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;hr&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/simple_curve_example-3830f9c26ba76b1e8e9a7b82716505eb.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;</content:encoded></item><item><title><![CDATA[Neon Drums]]></title><description><![CDATA[An audio-visual musical instrumentNeon Drums was a research project I did while at college. Its purpose was to design and implement an…]]></description><link>https://gatsby-london.netlify.com//neon-drums/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//neon-drums/</guid><pubDate>Sun, 01 Jan 2012 00:00:00 GMT</pubDate><content:encoded>&lt;h4&gt;An audio-visual musical instrument&lt;/h4&gt;
@@ -312,8 +310,8 @@
 &lt;hr&gt;
 &lt;h4&gt;Demo: Drawing audio-visual light streaks with a PS3 controller&lt;/h4&gt;
 &lt;p&gt;The XYZ coordinates of the PS3 controller are used to draw shapes in 3D space and to synthesize sounds.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
-  &lt;source src=&quot;/ps3_controller_neon_drums_demo-633196997fb83235ee9130ebdfbc4bb4.mov&quot; type=&quot;video/mp4&quot;&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls poster=&quot;/video-posters/ps3_controller_neon_drums_demo.jpg&quot;&gt;
+  &lt;source src=&quot;/ps3_controller_neon_drums_demo-f6580a832f1719c610e739510874e74b.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;hr&gt;
@@ -428,19 +426,19 @@
 &lt;/div&gt;
 &lt;hr&gt;
 &lt;h4&gt;Research project proposal&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&quot;/Santiago_Ferreira_Neon_Drums_Research_Proposal-5908254f141762e347171722ccd7f9c6.pdf&quot;&gt;Santiago Ferreira - Neon Drums Research Proposal.pdf&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animations]]></title><description><![CDATA[Selected animation shorts set to musicI created these animations as part of the visual materials for one of my duo’s albums. The world is…]]></description><link>https://gatsby-london.netlify.com//animations/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//animations/</guid><pubDate>Fri, 01 Jan 2010 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;Selected animation shorts set to music&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/Santiago_Ferreira_Neon_Drums_Research_Proposal-5908254f141762e347171722ccd7f9c6.pdf&quot;&gt;Santiago Ferreira - Neon Drums Research Proposal.pdf&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Animations]]></title><description><![CDATA[2.5D short music-synchronized animationsI created these animations as part of the visual materials for one of my duo’s albums. The world is…]]></description><link>https://gatsby-london.netlify.com//animations/</link><guid isPermaLink="false">https://gatsby-london.netlify.com//animations/</guid><pubDate>Fri, 01 Jan 2010 00:00:00 GMT</pubDate><content:encoded>&lt;h3&gt;2.5D short music-synchronized animations&lt;/h3&gt;
 &lt;p&gt;I created these animations as part of the visual materials for one of my duo’s albums. The world is inspired by South American landscapes and animals. The illustrations were done in collaboration with visual artist Scott Partridge. I animated the characters, designed the 3D stage and setup lights and cameras using After Effects + DUIK.&lt;/p&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video width=&quot;100%&quot; controls poster=&quot;/animation01.jpg&quot;&gt;
   &lt;source src=&quot;/animation01-a128c474fe460169d0a3f746b58c66f0.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;hr&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/animation02-26ebd654eb64dac3f367cfbb5a5211eb.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
 &lt;hr&gt;
-&lt;video width=&quot;100%&quot; height=&quot;100%&quot; controls&gt;
+&lt;video preload=&quot;metadata&quot; width=&quot;100%&quot; controls&gt;
   &lt;source src=&quot;/animation03-a87e06cd76b323d5ec309675cef73a0d.mp4&quot; type=&quot;video/mp4&quot;&gt;
   Your browser does not support the video tag.
 &lt;/video&gt;
